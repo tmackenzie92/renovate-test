@@ -1,2 +1,6 @@
+target
+.bsp
+.idea
+env
 *.class
 *.log

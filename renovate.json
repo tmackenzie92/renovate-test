@@ -1,0 +1,4 @@
+{
+  "automerge": false,
+  "enabledManagers": ["sbt"]
+}
