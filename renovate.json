@@ -1,4 +1,5 @@
 {
+  "extends": ["config:base"],
   "dependencyDashboard": true,
   "automerge": false,
   "enabledManagers": ["sbt"]
