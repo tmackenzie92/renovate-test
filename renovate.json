@@ -2,5 +2,11 @@
   "extends": ["config:base"],
   "dependencyDashboard": true,
   "automerge": false,
-  "enabledManagers": ["sbt"]
+  "enabledManagers": ["sbt"],
+  "packageRules": [
+    {
+      "matchPackagePrefixes": ["com.lihaoyi"],
+      "registryUrls": ["https://www.google.co.uk/"]
+    }
+  ]
 }
