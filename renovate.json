@@ -5,8 +5,8 @@
   "enabledManagers": ["sbt"],
   "packageRules": [
     {
-      "matchPackagePrefixes": ["com.lihaoyi"],
-      "registryUrls": ["https://www.google.co.uk/"]
+      "matchPackagePrefixes": ["com.fasterxml.jackson"],
+      "groupName": "Jackson"
     }
   ]
 }
