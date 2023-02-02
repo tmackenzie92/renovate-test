@@ -8,6 +8,6 @@ object Dependencies {
     "com.fasterxml.jackson.core" % "jackson-databind" % "2.11.2",
     "com.fasterxml.jackson.core" % "jackson-core" % "2.11.3",
     "io.cucumber" %% "cucumber-scala" % "4.7.1",
-    "io.cucumber" % "cucumber-junit" % "4.7.1"
+    "io.cucumber" % "cucumber-junit" % "4.8.1"
   )
 }
