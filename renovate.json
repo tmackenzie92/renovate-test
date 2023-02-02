@@ -1,5 +1,4 @@
 {
-  "extends": ["config:base"],
   "dependencyDashboard": true,
   "automerge": false,
   "enabledManagers": ["sbt"],
@@ -7,6 +6,10 @@
     {
       "matchPackagePrefixes": ["com.fasterxml.jackson"],
       "groupName": "Jackson"
+    },
+    {
+      "matchPackagePrefixes": ["io.cucumber"],
+      "groupName": "Cucumber"
     }
   ]
 }
