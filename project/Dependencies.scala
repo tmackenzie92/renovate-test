@@ -10,6 +10,15 @@ object Dependencies {
     )
   }
 
+  val akkaDeps = {
+    val version = "2.6.10"
+    Seq(
+      "com.typesafe.akka" %% "akka-protobuf" % version,
+      "com.typesafe.akka" %% "akka-persistence" % version,
+      "com.typesafe.akka" %% "akka-persistence-query" % version
+    )
+  }
+
   val deps: Seq[ModuleID] = Seq(
     "org.scalatest" %% "scalatest" % "3.2.7" % "test",
     "com.lihaoyi" %% "os-lib" % "0.7.0",
