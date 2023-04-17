@@ -22,10 +22,8 @@
   "minor": {
     "packageRules": [
       {
-        "matchPackageNames": [
-          "com.typesafe.akka:akka-protobuf",
-          "com.typesafe.akka:akka-persistence",
-          "com.typesafe.akka:akka-persistence-query"
+        "matchPackagePrefixes": [
+          "com.typesafe.akka"
         ],
         "enabled": false
       }
@@ -33,9 +31,8 @@
   },
   "major": {
     "ignoreDeps": [
-      "com.typesafe.akka:akka-protobuf",
-      "com.typesafe.akka:akka-persistence",
-      "com.typesafe.akka:akka-persistence-query"
+      "io.cucumber:cucumber-junit",
+      "io.cucumber:cucumber-scala"
     ]
   }
 }
