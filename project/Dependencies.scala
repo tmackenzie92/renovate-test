@@ -2,20 +2,20 @@ import sbt._
 
 object Dependencies {
   val jacksonDeps: Seq[ModuleID] = {
-    val version = "2.11.4"
+    val jacksonVersion = "2.11.4"
     Seq(
-      "com.fasterxml.jackson.module" %% "jackson-module-scala" % version,
-      "com.fasterxml.jackson.core" % "jackson-databind" % version,
-      "com.fasterxml.jackson.core" % "jackson-core" % version,
+      "com.fasterxml.jackson.module" %% "jackson-module-scala" % jacksonVersion,
+      "com.fasterxml.jackson.core" % "jackson-databind" % jacksonVersion,
+      "com.fasterxml.jackson.core" % "jackson-core" % jacksonVersion,
     )
   }
 
   val akkaDeps = {
-    val version = "2.6.10"
+    val akkaVersion = "2.6.10"
     Seq(
-      "com.typesafe.akka" %% "akka-protobuf" % version,
-      "com.typesafe.akka" %% "akka-persistence" % version,
-      "com.typesafe.akka" %% "akka-persistence-query" % version
+      "com.typesafe.akka" %% "akka-protobuf" % akkaVersion,
+      "com.typesafe.akka" %% "akka-persistence" % akkaVersion,
+      "com.typesafe.akka" %% "akka-persistence-query" % akkaVersion
     )
   }
 
