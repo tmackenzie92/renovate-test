@@ -1,22 +1,36 @@
 {
   "dependencyDashboard": true,
   "automerge": false,
-  "enabledManagers": ["sbt"],
+  "enabledManagers": [
+    "sbt"
+  ],
   "packageRules": [
     {
-      "matchPackagePrefixes": ["com.fasterxml.jackson"],
+      "matchPackagePrefixes": [
+        "com.fasterxml.jackson"
+      ],
       "groupName": "Jackson"
     },
     {
-      "matchPackagePrefixes": ["io.cucumber"],
+      "matchPackagePrefixes": [
+        "io.cucumber"
+      ],
       "groupName": "Cucumber"
     }
   ],
   "separateMinorPatch": true,
   "minor": {
-    "ignoreDeps": ["com.typesafe.akka:akka-protobuf, com.typesafe.akka:akka-persistence, com.typesafe.akka:akka-persistence-query"]
+    "ignoreDeps": [
+      "com.typesafe.akka:akka-protobuf",
+      "com.typesafe.akka:akka-persistence",
+      "com.typesafe.akka:akka-persistence-query"
+    ]
   },
   "major": {
-    "ignoreDeps": ["com.typesafe.akka:akka-protobuf, com.typesafe.akka:akka-persistence, com.typesafe.akka:akka-persistence-query"]
+    "ignoreDeps": [
+      "com.typesafe.akka:akka-protobuf",
+      "com.typesafe.akka:akka-persistence",
+      "com.typesafe.akka:akka-persistence-query"
+    ]
   }
 }
