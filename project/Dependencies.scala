@@ -11,7 +11,7 @@ object Dependencies {
   }
 
   val akkaDeps = {
-    val version = "2.6.10"
+    val version = "2.8.0"
     Seq(
       "com.typesafe.akka" %% "akka-protobuf" % version,
       "com.typesafe.akka" %% "akka-persistence" % version,
