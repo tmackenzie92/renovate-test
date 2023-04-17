@@ -20,10 +20,15 @@
   ],
   "separateMinorPatch": true,
   "minor": {
-    "ignoreDeps": [
-      "com.typesafe.akka:akka-protobuf",
-      "com.typesafe.akka:akka-persistence",
-      "com.typesafe.akka:akka-persistence-query"
+    "packageRules": [
+      {
+        "matchPackageNames": [
+          "com.typesafe.akka:akka-protobuf",
+          "com.typesafe.akka:akka-persistence",
+          "com.typesafe.akka:akka-persistence-query"
+        ],
+        "enabled": false
+      }
     ]
   },
   "major": {
