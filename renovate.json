@@ -11,5 +11,12 @@
       "matchPackagePrefixes": ["io.cucumber"],
       "groupName": "Cucumber"
     }
-  ]
+  ],
+  "separateMinorPatch": true,
+  "minor": {
+    "ignoreDeps": ["com.typesafe.akka:akka-protobuf, com.typesafe.akka:akka-persistence, com.typesafe.akka:akka-persistence-query"]
+  },
+  "major": {
+    "ignoreDeps": ["com.typesafe.akka:akka-protobuf, com.typesafe.akka:akka-persistence, com.typesafe.akka:akka-persistence-query"]
+  }
 }
