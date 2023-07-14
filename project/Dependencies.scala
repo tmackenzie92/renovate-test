@@ -23,6 +23,7 @@ object Dependencies {
     "org.scalatest" %% "scalatest" % "3.2.7" % "test",
     "com.lihaoyi" %% "os-lib" % "0.7.0",
     "io.cucumber" %% "cucumber-scala" % "4.7.1",
-    "io.cucumber" % "cucumber-junit" % "4.7.1"
+    "io.cucumber" % "cucumber-junit" % "4.7.1",
+    "com.typesafe.play" %% "play-json" % "2.7.1"
   )
 }
