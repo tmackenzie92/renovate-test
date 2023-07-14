@@ -22,7 +22,7 @@ object Dependencies {
   val deps: Seq[ModuleID] = Seq(
     "org.scalatest" %% "scalatest" % "3.2.7" % "test",
     "com.lihaoyi" %% "os-lib" % "0.7.0",
-    "io.cucumber" %% "cucumber-scala" % "4.7.1",
-    "io.cucumber" % "cucumber-junit" % "4.7.1"
+    "io.cucumber" %% "cucumber-scala" % "8.16.0",
+    "io.cucumber" % "cucumber-junit" % "7.13.0"
   )
 }
