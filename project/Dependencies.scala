@@ -2,7 +2,7 @@ import sbt._
 
 object Dependencies {
   val jacksonDeps: Seq[ModuleID] = {
-    val jacksonVersion = "2.11.4"
+    val jacksonVersion = "2.15.2"
     Seq(
       "com.fasterxml.jackson.module" %% "jackson-module-scala" % jacksonVersion,
       "com.fasterxml.jackson.core" % "jackson-databind" % jacksonVersion,
