@@ -1,6 +1,10 @@
 {
   "dependencyDashboard": true,
   "automerge": false,
+  "ignoreDeps": [
+    "io.cucumber:cucumber-junit",
+    "io.cucumber:cucumber-scala"
+  ],
   "enabledManagers": [
     "sbt"
   ],
@@ -27,12 +31,6 @@
         ],
         "enabled": false
       }
-    ]
-  },
-  "major": {
-    "ignoreDeps": [
-      "io.cucumber:cucumber-junit",
-      "io.cucumber:cucumber-scala"
     ]
   }
 }
